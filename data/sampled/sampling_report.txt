@@ -1,0 +1,55 @@
+======================================================================
+SAMPLING REPORT
+======================================================================
+
+Sampling date: 2026-01-14 12:28:25
+Input directory: D:/UEL/DA_AVD/ADA-Flight-Delay/data/parquet/flights_weather
+Output file: D:/UEL/DA_AVD/ADA-Flight-Delay/data/sampled/flight_data_sampled_2023.csv
+Total rows sampled: 6000
+
+MONTHLY DISTRIBUTION:
+------------------------------
+Month 01: 500 rows
+Month 02: 500 rows
+Month 03: 500 rows
+Month 04: 500 rows
+Month 05: 500 rows
+Month 06: 500 rows
+Month 07: 500 rows
+Month 08: 500 rows
+Month 09: 500 rows
+Month 10: 500 rows
+Month 11: 500 rows
+Month 12: 500 rows
+
+CARRIER DISTRIBUTION (Top 15):
+------------------------------
+AA: 1116 flights
+WN: 1106 flights
+DL: 794 flights
+UA: 623 flights
+OO: 472 flights
+B6: 306 flights
+NK: 264 flights
+MQ: 253 flights
+YX: 234 flights
+F9: 220 flights
+9E: 183 flights
+AS: 163 flights
+OH: 152 flights
+G4:  60 flights
+HA:  54 flights
+
+DELAY CATEGORY DISTRIBUTION:
+------------------------------
+Trễ nhiều (>60p): 1800 rows (30.0%)
+Trễ vừa (30-120p): 1200 rows (20.0%)
+Trễ ít (0-30p): 1800 rows (30.0%)
+Đúng giờ (≤0p): 2400 rows (40.0%)
+
+BALANCE CHECK:
+------------------------------
+Top carriers covered: 10/10
+Top airports covered: 15/15
+Routes with comparisons: 1325
+Hour-carrier pairs: 15
