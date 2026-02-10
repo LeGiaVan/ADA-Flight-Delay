@@ -1,0 +1,63 @@
+SAMPLING STRATEGY REPORT (THEORETICAL FRAMEWORK)
+================================================
+
+1. DATA DISTRIBUTION BY DELAY GROUP (QUOTA CHECK)
+   - OnTime: 2400 rows (40.0%)
+   - Minor: 1800 rows (30.0%)
+   - Moderate: 1200 rows (20.0%)
+   - Severe: 600 rows (10.0%)
+
+2. COVERAGE CHECK
+   - Top Carrier Presence: 94.6%
+
+3. DETAILED LOG (MONTHLY)
+Month  | Group      | Available  | Sampled   
+---------------------------------------------
+1      | Severe     | 39050      | 50        
+1      | Moderate   | 33382      | 100       
+1      | Minor      | 126843     | 150       
+1      | OnTime     | 320089     | 200       
+2      | Severe     | 27633      | 50        
+2      | Moderate   | 27117      | 100       
+2      | Minor      | 112484     | 150       
+2      | OnTime     | 317753     | 200       
+3      | Severe     | 40773      | 50        
+3      | Moderate   | 40195      | 100       
+3      | Minor      | 153845     | 150       
+3      | OnTime     | 327350     | 200       
+4      | Severe     | 41292      | 50        
+4      | Moderate   | 36877      | 100       
+4      | Minor      | 138197     | 150       
+4      | OnTime     | 325315     | 200       
+5      | Severe     | 30939      | 50        
+5      | Moderate   | 30796      | 100       
+5      | Minor      | 130458     | 150       
+5      | OnTime     | 375329     | 200       
+6      | Severe     | 55244      | 50        
+6      | Moderate   | 43736      | 100       
+6      | Minor      | 146162     | 150       
+6      | OnTime     | 308993     | 200       
+7      | Severe     | 64515      | 50        
+7      | Moderate   | 47450      | 100       
+7      | Minor      | 145996     | 150       
+7      | OnTime     | 318008     | 200       
+8      | Severe     | 44330      | 50        
+8      | Moderate   | 36637      | 100       
+8      | Minor      | 137014     | 150       
+8      | OnTime     | 366698     | 200       
+9      | Severe     | 33895      | 50        
+9      | Moderate   | 30034      | 100       
+9      | Minor      | 126339     | 150       
+9      | OnTime     | 363953     | 200       
+10     | Severe     | 24529      | 50        
+10     | Moderate   | 26803      | 100       
+10     | Minor      | 132605     | 150       
+10     | OnTime     | 403607     | 200       
+11     | Severe     | 19139      | 50        
+11     | Moderate   | 21661      | 100       
+11     | Minor      | 116981     | 150       
+11     | OnTime     | 396806     | 200       
+12     | Severe     | 24561      | 50        
+12     | Moderate   | 25409      | 100       
+12     | Minor      | 122814     | 150       
+12     | OnTime     | 385825     | 200       
