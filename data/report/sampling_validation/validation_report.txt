@@ -1,0 +1,30 @@
+🚀 BẮT ĐẦU KIỂM ĐỊNH (VALIDATION)...
+📂 Report Directory: D:\UEL\ADA\ADA-Flight-Delay\data\report
+------------------------------------------------------------
+1️⃣ Đang đọc dữ liệu Mẫu (Sample)...
+   -> Đã load 6,000 dòng mẫu.
+2️⃣ Đang đọc dữ liệu Tổng thể (Population)...
+   -> Chuyển sang chế độ đọc từng file (Iterative Read) để tránh lỗi Schema...
+   -> Tìm thấy 168 file Parquet. Đang xử lý...
+   -> ✅ Đã load thành công 6,645,461 dòng tổng thể.
+
+🎨 Đang vẽ và lưu biểu đồ...
+   ✅ Đã lưu 3 biểu đồ thành công.
+
+📋 KẾT QUẢ KIỂM ĐỊNH CHI TIẾT
+============================================================
+1. TEMPORAL COVERAGE:
+   - Months: ✅ Đủ 12 tháng
+   - Days:   ✅ Đủ 7 ngày
+
+2. PEAK HOUR (6-9h, 16-19h):
+   - Pop: 0.00% | Sample: 0.00% | Diff: 0.00%
+
+3. CARRIER CONSISTENCY (Top 5):
+   Carrier  | Pop %      | Sample %   | Diff %    
+   ---------------------------------------------
+   WN       | 21.39%     | 22.07%     | 0.68%
+   DL       | 14.64%     | 14.80%     | 0.16%
+   AA       | 13.97%     | 15.42%     | 1.45%
+   UA       | 10.82%     | 11.50%     | 0.68%
+   OO       | 9.60%     | 10.12%     | 0.52%
