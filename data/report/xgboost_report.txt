@@ -1,0 +1,32 @@
+=== XGBOOST CLASSIFIER REPORT ===
+Accuracy: 0.5100
+
+CLASSIFICATION REPORT:
+                  precision    recall  f1-score   support
+
+      Good (<=0)       0.74      0.52      0.61       495
+    Minor (0-45)       0.45      0.47      0.46       329
+Moderate (45-90)       0.29      0.49      0.36       167
+    Severe (>90)       0.52      0.57      0.55       209
+
+        accuracy                           0.51      1200
+       macro avg       0.50      0.51      0.49      1200
+    weighted avg       0.56      0.51      0.52      1200
+
+CONFUSION MATRIX:
+[[256 117  73  49]
+ [ 68 155  70  36]
+ [ 17  44  81  25]
+ [  5  25  59 120]]
+
+TOP 10 FEATURES IMPORTANCE:
+1. ROUTE_RISK: 0.0538
+2. OP_CARRIER_AA: 0.0145
+3. DEP_HOUR_6: 0.0145
+4. DEST_GROUPED_DTW: 0.0138
+5. OP_CARRIER_OH: 0.0137
+6. DEP_HOUR_7: 0.0136
+7. ORIGIN_GROUPED_MIA: 0.0133
+8. ORIGIN_GROUPED_OTHER: 0.0132
+9. ORIGIN_GROUPED_LAX: 0.0131
+10. DEP_HOUR_17: 0.0125

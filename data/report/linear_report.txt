@@ -1,0 +1,18 @@
+=== LINEAR REGRESSION REPORT ===
+RMSE (Root Mean Squared Error): 95.7214
+R2 Score: 0.4613
+------------------------------
+CONVERTED TO CLASSIFICATION METRICS:
+Accuracy (Converted): 0.4867
+
+Detailed Classification Report (Converted):
+                  precision    recall  f1-score   support
+
+      Good (<=0)       0.79      0.42      0.55       495
+    Minor (0-45)       0.41      0.63      0.49       329
+Moderate (45-90)       0.27      0.42      0.33       167
+    Severe (>90)       0.60      0.46      0.52       209
+
+        accuracy                           0.49      1200
+       macro avg       0.52      0.48      0.47      1200
+    weighted avg       0.58      0.49      0.50      1200
